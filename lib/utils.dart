@@ -13,4 +13,5 @@ TextStyle textStyle(double size,Color color,FontWeight fw ){
   );
 
  }
-//CollectionReference<Map<String,dynamic>>userCollection=FirebaseFirestore.
+CollectionReference<Map<String,dynamic>>userCollection=
+    FirebaseFirestore.instance.collection('users');
